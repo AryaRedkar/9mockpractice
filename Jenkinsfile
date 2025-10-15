@@ -21,3 +21,6 @@ pipeline {
         }
     }
 }
+scoop bucket add hookdeck (url from the hookdeck repository)
+scoop install hookdeck
+hookdeck listen 8080
